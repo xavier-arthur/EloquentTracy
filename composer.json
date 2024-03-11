@@ -2,7 +2,7 @@
     "name": "arthurx/eloquent-tracy",
     "description": "A tracy bar extension to log eloquent database calls",
     "type": "library",
-    "license": "GPL-3",
+    "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
             "Arthurx\\EloquentTracy\\": "src/"
