@@ -1,0 +1,21 @@
+{
+    "name": "arthurx/eloquent-tracy",
+    "description": "A tracy bar extension to log eloquent database calls",
+    "type": "library",
+    "license": "GPL-3",
+    "autoload": {
+        "psr-4": {
+            "Arthurx\\EloquentTracy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arthur Xavier",
+            "email": "garok102@gmail.com"
+        }
+    ],
+    "require": {
+        "tracy/tracy": "^2.10",
+        "illuminate/database": "^10.47"
+    }
+}
